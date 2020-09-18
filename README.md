@@ -13,8 +13,7 @@ Wouldn’t it be cool sending emails from python? Let’s do it then ;)
 import smtplib
 ```
 ## **Send Mail Function:**
-!! See code.py !!
-    
+### **See code.py**   
  
 ## **Getting your App Generated Password:**
 -  Now before starting to type this send_mail function let’s create our generated password. Once you have turned on your 2-step verification, you can head back to the security navigation page. Under signing-in to Google, you see a tab called App passwords. Now click on this tab. Under “Select App” select the option “Mail” and under “Select device” select the device you are doing this project on. In my case, I would choose the option “Mac”. Then click generate.
