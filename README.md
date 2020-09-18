@@ -8,8 +8,10 @@ Wouldn’t it be cool sending emails from python? Let’s do it then ;)
 - App generated Password
 
 ## **Importing Packages:**
-import smtplib
 
+``` python
+import smtplib
+```
 ## **Send Mail Function:**
 !! See code.py !!
     
