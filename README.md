@@ -14,6 +14,9 @@ import smtplib
 ```
 ## **Send Mail Function:**
 
+### **Getting your App Generated Password:**
+-  Now before starting to type this send_mail function let’s create our generated password. Once you have turned on your 2-step verification, you can head back to the security navigation page. Under signing-in to Google, you see a tab called App passwords. Now click on this tab. Under “Select App” select the option “Mail” and under “Select device” select the device you are doing this project on. In my case, I would choose the option “Mac”. Then click generate.
+
 ```python
 def send_mail():
     server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -37,8 +40,11 @@ def send_mail():
     server.quit()
 ```
  
-## **Getting your App Generated Password:**
--  Now before starting to type this send_mail function let’s create our generated password. Once you have turned on your 2-step verification, you can head back to the security navigation page. Under signing-in to Google, you see a tab called App passwords. Now click on this tab. Under “Select App” select the option “Mail” and under “Select device” select the device you are doing this project on. In my case, I would choose the option “Mac”. Then click generate.
+## **Call function**
+
+```python
+send_mail()
+```
 
 ## **END**
 Hopefully this tutorial helped you in solving this tricky, but important problem.
